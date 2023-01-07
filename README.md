@@ -21,21 +21,26 @@ Link: https://www.kaggle.com/datasets/anandhuh/population-data-china
 2.	China Population Forecast:
 -	Dự đoán dân số TQ trong tương lai.
 -	Thông tin tập dữ liệu giống China Population
+
 II.	Trực quan hóa dữ liệu
 1.	Bản đồ nhiệt về hệ số tương quan giữa các biến (correlations for multivariate data):
 a.	Ý tưởng:
 Dùng ma trận hệ số tương quan để vẽ lên thành 1 bản đồ nhiệt
 b.	Hình ảnh:
+
  ![image](https://user-images.githubusercontent.com/63283198/165506872-e4bfff55-2fd1-440c-916c-b34a2bee6bf7.png)
 
 2.	Bảng các thuộc tính có độ tương quan lớn nhất với nhau (most correlated):
+
  ![image](https://user-images.githubusercontent.com/63283198/165506907-00614123-2948-4fb0-8937-8aa6811e97e6.png)
 
 3.	Nên giữ lại bao nhiêu thành phần chính
 a.	Tính độ lệch chuẩn:
+
  ![image](https://user-images.githubusercontent.com/63283198/165506917-21a448ba-794e-4a5a-a5b0-3717ce0434a3.png)
 
 b.	Trực quan hóa (đổi từ độ lệch chuẩn sang phương sai):
+
  ![image](https://user-images.githubusercontent.com/63283198/165506924-d11e68a2-4b62-4163-9880-e77d95215b38.png)
 
 4.	Tổng dân số của TQ (gộp cả 2 tập dữ liệu):
